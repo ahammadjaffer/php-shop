@@ -1,0 +1,252 @@
+/* CSS Document */
+
+h2
+{
+	text-align:center;
+	font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size:56px;
+	color:#CC3366;
+}
+
+body
+{
+	background-color: #FCFCF8;
+	font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+
+/*NAVIGATION*/
+nav
+{
+	width:100%;
+	text-align:center;
+}
+
+.navmenu
+{
+	text-decoration:none;
+	padding:10px;
+	border-right:1px solid #CC3366;	
+}
+
+.navmenu:last-child
+{
+	border-right:none;
+}
+.navmenu:hover
+{
+		color:#F00;
+}
+.container
+{
+	margin: 0 50px;
+}
+/*FILTER*/
+.filter
+{
+	position:relative;
+	margin:auto;
+	background-color:#fff;
+	text-align:center;
+	margin-top:25px;
+}
+.dropdown, .button
+{
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+	padding:5px;
+	border:none;
+	color:#fff;
+	background-color: #CC3366;
+}
+.button
+{
+	width: 75px;
+	margin:10px 0;
+}
+.addtocart
+{
+	width:100px;
+}
+.cancelbtn
+{
+	border:none;
+	padding:5px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+	width: 75px;
+	color:#fff;
+	background-color: #72848e;
+	margin:10px 0;
+}
+div.img
+{
+	width:32%;
+	margin:5px;
+	float:left;
+	background-color:#EBEBEB;
+}
+.clearfix
+{
+	clear:both;	
+}
+.main
+{
+	position:relative;
+	margin:auto;
+}
+.paging
+{
+	margin:0 50px;
+	color:#0F6;
+	float:left;
+}
+/*REGISTER*/
+.Register
+{
+	position:relative;
+	margin:auto;
+	width:50%;
+	background-color:#fff;
+	border:solid #CC3366;
+	border-width:thin;
+	padding:25px;
+}
+/*LOGIN*/
+.Login
+{
+	position:relative;
+	margin:auto;
+	width:30%;
+	background-color:#fff;
+	border:solid #CC3366;
+	border-width:thin;
+	padding:25px;
+}
+input[type=text]
+{
+	
+	position:relative;
+	margin:10px 0;
+	width:100%;
+	height:20px;
+}
+.forgpass, .newacc
+{
+	font-size:11px;
+	text-align:center;
+}
+/*MY PROFILE*/
+.uname
+{
+	font-size:35px;
+	font-stretch:condensed;
+}
+/*TABLE CART*/
+.TableCart
+{
+	position:relative;
+	margin:35px auto;
+	width:70%;
+	text-align:center;
+}
+.cartrow:nth-child(even)
+{
+	background-color:#FFD9EC;
+}
+.cartrow:hover
+{
+	background-color:#9F9;
+}
+.usermsg
+{
+	background-color:#B9FFC9;
+	font-size:17px;
+	padding: 5px 10px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+	border-radius:5px;
+}
+.shopmsg
+{
+	background-color:#DFDFFF;
+	font-size:17px;
+	padding: 5px 10px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+	border-radius:5px;
+}
+.msgView
+	{
+		border: 1px solid black;
+		border-color: #CC3366;
+		padding: 10px;
+	}
+
+@media screen and (max-width: 699px) and (min-width: 500px)
+{
+	h2
+	{
+		font-size:38px;
+	}
+	.container
+	{
+		margin: 0 25px;
+	}
+	.Login
+	{
+		position:relative;
+		margin:auto;
+		width:70%;
+		background-color:#fff;
+		border:solid #CC3366;
+		border-width:thin;
+	}
+	.TableCart
+	{
+		position:relative;
+		margin:35px auto;
+		width:90%;
+	}
+}
+@media screen and (max-width: 499px)
+{
+	h2
+	{
+	
+		font-size:28px;
+	}
+	nav
+	{
+		font-size:10px;
+	}
+	.container
+	{
+		margin: 0 15px;
+	}
+	.filter
+	{
+		margin-top:10px;
+		font-size:12px;
+	}
+	.dropdown
+	{
+		padding:1px;
+	}
+	div.img
+	{
+		margin:auto;
+	}
+	/*USER LOGIN*/
+	.Login
+	{
+		position:relative;
+		margin:auto;
+		width:100%;
+		background-color:#fff;
+		border:solid #CC3366;
+		border-width:thin;
+	}
+	.TableCart
+	{
+		position:relative;
+		margin:35px auto;
+		width:90%;
+		font-size:12px;
+	}
+}
